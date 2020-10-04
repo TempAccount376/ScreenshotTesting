@@ -72,8 +72,8 @@ open class ScreenshotTest {
         // here we can add more languages
         val languages = arrayOf("en")
 
-        devices.addAll(generateConfigurations(languages, SCREEN_1, false))
-        devices.addAll(generateConfigurations(languages, SCREEN_4, true))
+        devices.addAll(generateConfigurations(languages, SCREEN_1.copy(height = height), false))
+        devices.addAll(generateConfigurations(languages, SCREEN_4.copy(height = height), true))
 
         return devices
     }

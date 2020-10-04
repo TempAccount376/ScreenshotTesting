@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ScreenshotTesting</string>
+
+    <string name="sample.list.item.title">Screenshot testing</string>
+    <string name="sample.list.item.subtitle">Useful for UI regression issues</string>
+
 </resources>

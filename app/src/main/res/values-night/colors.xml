@@ -4,10 +4,10 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="white">#FFFFFF</color>
+    <color name="white">#FEFEFE</color>
 
-    <color name="background">#FEFEFE</color>
-    <color name="textColor">#111111</color>
+    <color name="background">#222222</color>
+    <color name="textColor">#FEFEFE</color>
 
     <color name="grey">#999999</color>
     <color name="lightGrey">#DADADA</color>
