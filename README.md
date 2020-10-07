@@ -46,7 +46,7 @@ Setup the Gradle plugin:
     // ...
     dependencies {
       // ...
-      classpath 'com.karumi:shot:4.4.0'
+      classpath 'com.karumi:shot:5.1.2'
     }
   }
   apply plugin: 'shot'
@@ -115,6 +115,10 @@ class ScreenshotTestRunner: AndroidJUnitRunner() {
 ```
 
 ## Setup an emulator
+
+***Important*** There is an open issue where for emulators/devices with API level 28+ the tests will fail.
+See [here](https://github.com/facebook/screenshot-tests-for-android/issues/224#issuecomment-501072359) for the solution or use a lower API.
+
 
 In order to be able to record/verify among different machines then you need to setup the same emulator on all machines
 
